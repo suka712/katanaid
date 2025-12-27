@@ -24,7 +24,7 @@ const NavBar = () => {
                 <a href="https://github.com/suka712"><Button variant="secondary">Khiem Nguyen</Button></a>
                 <a href="https://github.com/trnahnh"><Button variant="secondary">Anh Tran</Button></a>
               </div>
-              <a href="https://github.com/trnahnh/katanaid"><Button variant="outline" className="mt-2 w-full"><LucideCodeXml />Github</Button></a>
+              <a href="https://github.com/trnahnh/katanaid"><Button variant="outline" className="mt-2 w-full"><LucideCodeXml />GitHub</Button></a>
             </HoverCardContent>
           </HoverCard>
           <Button variant="ghost">Demo</Button>
