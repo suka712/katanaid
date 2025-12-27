@@ -10,7 +10,7 @@ Anh Tran & Khiem Nguyen
 - [x] Set up login/ - Anh
 - [x] Set up signup/ - Anh
 - [x] Connect PostgreSQL - Anh
-- [ ] Connect auth end2end - Anh
+- [x] Connect auth end2end - Anh
 - [ ] Setup OAuth (Google, GitHub) - Anh
 - [ ] Add endpoint for contact - Anh
 - [ ] POST /api/upload - Accept image/video/audio file - Anh
