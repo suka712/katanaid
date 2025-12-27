@@ -22,6 +22,7 @@ Anh Tran & Khiem Nguyen
 - [x] Add landing page - Khiem
 - [X] Add navbar - Khiem
 - [x] Add login, signup button - Khiem
+- [ ] Connect login, signup to backend - Khiem
 - [ ] Add contact us section - Khiem
 - [ ] Cursor effect on homepage - Khiem
 - [ ] Add 404 page - Khiem
