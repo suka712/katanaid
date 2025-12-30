@@ -16,7 +16,7 @@ Anh Tran & Khiem Nguyen
 - [x] POST /api/analyze - Send file to detection API, return result - Anh
 - [x] GET /api/history - List user's past analyses - Anh
 - [x] Store analysis results in PostgreSQL - Anh
-- [ ] Setup OAuth (Google, GitHub) - Anh
+- [x] Setup OAuth (Google, GitHub) - Anh
 
 ### Frontend - React & Tailwind CSS
 - [x] Add landing page - Khiem
