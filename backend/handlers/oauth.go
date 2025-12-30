@@ -211,7 +211,7 @@ func GoogleCallback(w http.ResponseWriter, r *http.Request) {
 type GoogleUserInfo struct {
 	ID            string `json:"id"`
 	Email         string `json:"email"`
-	EmailVerified bool   `json:"email_verified"`
+	EmailVerified bool   `json:"verified_email"`
 	Name          string `json:"name"`
 }
 
