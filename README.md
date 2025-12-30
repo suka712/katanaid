@@ -17,7 +17,7 @@ Deepfake detection for images and videos.
 
 - Node.js 18+
 - Go 1.21+
-- PostgreSQL
+- PostgreSQL (pgAdmin 4)
 
 ### Backend
 
