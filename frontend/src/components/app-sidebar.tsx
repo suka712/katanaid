@@ -33,12 +33,12 @@ const data = {
   services: [
     {
       title: "Generative Identity",
-      url: "/generative-identity",
+      url: "/dashboard/generative-identity",
       icon: IconFingerprint,
     },
     {
       title: "Traffic Analytics",
-      url: "/traffic-analytics",
+      url: "/dashboard/traffic-analytics",
       icon: IconChartBar,
     },
   ],
@@ -85,6 +85,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
                   <SidebarMenuButton
                     asChild
                     isActive={location.pathname === service.url}
+                    tooltip={service.title}
                   >
                     <Link to={service.url}>
                       <service.icon />

@@ -9,6 +9,7 @@ import GenerativeIdentityPage from "./pages/GenerativeIdentityPage";
 import TrafficAnalyticsPage from "./pages/TrafficAnalyticsPage";
 import AuthCallbackPage from "./pages/AuthCallbackPage";
 import GridBackground from "./components/GridBackground";
+import DashboardLayout from "./components/layouts/DashboardLayout";
 
 const PublicLayout = () => (
   <>
@@ -24,8 +25,6 @@ const PublicLayout = () => (
   </>
 );
 
-const DashboardLayout = () => <Outlet />;
-
 function App() {
   return (
     <>
@@ -37,10 +36,10 @@ function App() {
           <Route path="/signup" element={<SignupPage />} />
         </Route>
         <Route path="/auth/callback" element={<AuthCallbackPage />} />
-        <Route element={<DashboardLayout />}>
-          <Route path="/dashboard" element={<DashboardPage />} />
-          <Route path="/generative-identity" element={<GenerativeIdentityPage />} />
-          <Route path="/traffic-analytics" element={<TrafficAnalyticsPage />} />
+        <Route path="/dashboard" element={<DashboardLayout />}>
+          <Route index element={<DashboardPage />} />
+          <Route path="generative-identity" element={<GenerativeIdentityPage />} />
+          <Route path="traffic-analytics" element={<TrafficAnalyticsPage />} />
         </Route>
       </Routes>
     </>
